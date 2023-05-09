@@ -1,0 +1,17 @@
+.goods-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    margin: 20px;
+}
+
+.productTitle {
+    margin-left: 50%;
+    color: #dc1fc4;
+}
+
+.product-container {
+    background-color: #e3aedc;
+}

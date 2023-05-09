@@ -1,0 +1,35 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #9d228d;
+  padding: 10px;
+}
+
+select {
+  margin-left: 10px;
+}
+
+.menuList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menuItem {
+  margin: 0 10px;
+}
+
+.menuButton {
+  background-color: #410839;
+  color: #dc1fc4;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #fff;
+  color: #333;
+}
